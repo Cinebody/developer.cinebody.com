@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
+    <!-- Theme: Defaults -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-defaults.css"> -->
+  <!-- Theme: Simple -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+<link rel="stylesheet" type="text/css" href="/assets/swagger-ui.css">
+<style>
+  /* Base
+============================================================================= */
+:root {
+    --base-background-color: #fff;
+    --base-color           : var(--mono-shade2);
+    --base-font-family     : -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --base-font-size       : 16px;
+    --base-font-weight     : normal;
+    --base-letter-spacing  : ;
+    --base-line-height     : 1.7;
+
+    --cover-background-blend-mode: 'none';
+
+    /* Emoji */
+    --emoji-size           : calc(var(--base-line-height) * 1em);
+
+    /* Horizontal Rule */
+    --hr-border            : 1px solid var(--mono-tint2);
+
+    /* Mark */
+    --mark-background      : #ffecb3;
+    --mark-color           : ;
+
+    /* Preformatted */
+    --pre-font-family      : var(--code-font-family);
+    --pre-font-size        : var(--code-font-size);
+    --pre-font-weight      : normal;
+    --pre-line-height      : ;
+
+    /* Selection */
+    --selection-color      : #00BCF1;
+
+    /* Small */
+    --small-font-size      : var(--font-size-s);
+
+    /* Strong */
+    --strong-color         : var(--heading-color);
+    --strong-font-weight   : 600;
+
+    /* Sub/Sup */
+    --subsup-font-size     : var(--font-size-s);
+}
+</style>
+
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="/assets/swagger-ui-bundle.js"></script>
+  <script src="/assets/swagger-ui-standalone-preset.js"></script>
+  <script>
+    window.$docsify = {
+      name: 'Cinebody Developer Documentation',
+      repo: 'https://github.com',
+      loadSidebar: true,
+      coverpage: true,
+      executeScript: true
+    }
+  </script>
+
+  <!-- <script>
+    window.onload = function() {
+      console.log('WINDOW ONLOAD!')
+      const ui = SwaggerUIBundle({
+        url: "https://petstore.swagger.io/v2/swagger.json",
+        dom_id: '#swagger-ui',
+        presets: [
+          SwaggerUIBundle.presets.apis,
+          SwaggerUIStandalonePreset
+        ]
+      })
+
+      window.ui = ui
+    }
+    </script> -->
+</body>
+</html>
