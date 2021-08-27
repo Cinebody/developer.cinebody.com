@@ -22,7 +22,7 @@
 - No statically built html files
 - Multiple themes -->
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/16955941-fdbd0133-d41a-424a-acae-f6100e71d3df?action=collection%2Ffork&collection-url=entityId%3D16955941-fdbd0133-d41a-424a-acae-f6100e71d3df%26entityType%3Dcollection%26workspaceId%3De750de5a-beaa-4d6b-aa4c-b40e18a2e82a)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/16955941-efc8c3ce-a55f-4c82-8314-1797a09b1634?action=collection%2Ffork&collection-url=entityId%3D16955941-efc8c3ce-a55f-4c82-8314-1797a09b1634%26entityType%3Dcollection%26workspaceId%3De750de5a-beaa-4d6b-aa4c-b40e18a2e82a)
 
 [Get Started](#introduction)
 
