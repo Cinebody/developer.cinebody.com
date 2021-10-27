@@ -7,16 +7,16 @@
 * Team
   * A team has many projects.
 * Project
-  * A project is like a campaign with a start and end. Creators join your project and upload footage. Your team admins then review that content
-* User [aka Creator]
+  * A project is like a campaign with a start and end. Filmers join your project and upload footage. Your team admins then review that content
+* User [aka Filmer]
   * A user might belong to many organizations, teams, and/or projects with various roles
 * MediaFile [aka Video or Clip]
   * Clip
     * A clip is a video that is uploaded to a project
   * Final Video
-    * A final video is an edited video that team admins may upload to a project and then optionally share to Creators
+    * A final video is an edited video that team admins may upload to a project and then optionally share to Filmers
 * Notification
-  * A notification can be sent to Creators on a team or project. Notifications will show in the Cinebody App and as a push notification [if enabled by the user]
+  * A notification can be sent to Filmers on a team or project. Notifications will show in the Cinebody App and as a push notification [if enabled by the user]
 
 ## User Roles
 
@@ -28,6 +28,6 @@ Users can have various roles within different organizations, teams, or projects.
 * Team Admin
   * Can add additional team admins
   * Can moderate content within team projects
-* Project Creator
+* Project Filmer
   * Has joined a project either via invite or join code
   * Can upload clips through the Cinebody App or manually through pro.cinebody.com
